@@ -25,16 +25,21 @@ const Footer = () => {
         <p className="font-montserrat font-normal text-center text-[18px] leading-[27px] text-white">
           Copyright &copy; 2023 AmazonPay. All Rights Reserved
         </p>
-        {/* <div className="flex flex-row md:mt-0 mt-6">
-          {socialMedia.map((social, indx) => (
-            <div
-              key={indx}
-              className={`${indx === socialMedia.length - 1 ? "mr-0" : "mr-6"}`}
-            >
-              {social.icon}
-            </div>
+        <ul className="list-none sm:flex hidden justify-start items-center  ">
+          {navigationLinks.map((item, index) => (
+            <li key={item.id}>
+              <a
+                href={`#${item.id}`}
+                className={`${style.navLink} ${
+                  index === navigationLinks.length - 1 ? "mr-0" : "mr-10"
+                } 
+               hover:text-white transition-all duration-300 navlink`}
+              >
+                {item.title}
+              </a>
+            </li>
           ))}
-        </div> */}
+        </ul>
       </div>
     </div>
   );
