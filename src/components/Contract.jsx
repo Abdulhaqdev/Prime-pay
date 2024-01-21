@@ -1,7 +1,6 @@
 import React from "react";
 import { layout, style } from "../util/style";
 import { card } from "../assets";
-// import Button from "./Button";
 
 function Contract() {
   return (
@@ -16,7 +15,6 @@ function Contract() {
           lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitat
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, totam!
         </p>
-        {/* <Button style={"mt-10"}></Button> */}
       </div>
       <div className={layout.sectionImg}>
         <img src={card} alt="" className="w-[100%] h-[100%] " />

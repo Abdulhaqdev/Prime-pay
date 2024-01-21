@@ -25,21 +25,6 @@ const Footer = () => {
         <p className="font-montserrat font-normal text-center text-[18px] leading-[27px] text-white">
           Copyright &copy; 2023 AmazonPay. All Rights Reserved
         </p>
-        <ul className="list-none sm:flex hidden justify-start items-center  ">
-          {navigationLinks.map((item, index) => (
-            <li key={item.id}>
-              <a
-                href={`#${item.id}`}
-                className={`${style.navLink} ${
-                  index === navigationLinks.length - 1 ? "mr-0" : "mr-10"
-                } 
-               hover:text-white transition-all duration-300 navlink`}
-              >
-                {item.title}
-              </a>
-            </li>
-          ))}
-        </ul>
       </div>
     </div>
   );

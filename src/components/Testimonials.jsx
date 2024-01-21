@@ -14,7 +14,6 @@ function Testimonials() {
         </h2>
         <div className="w-full md:mt-0 mt-6">
           <p className={`${style.paragraph} text-left max-w-[550px] `}>
-            {" "}
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. A mollitia
             cupiditate sapiente voluptatem soluta repudiandae unde nulla,
           </p>
